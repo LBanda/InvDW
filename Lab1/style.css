@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+}
+
+address{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+ul{
+    list-style-type:none;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Helvetica", "Arial", sans-serif;
+  }
+
+img{
+    width: 50%;
+}
