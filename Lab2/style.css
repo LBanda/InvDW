@@ -1,0 +1,62 @@
+header {
+    text-align: center;
+}
+
+address{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+ul{
+    list-style-type:none;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Helvetica", "Arial", sans-serif;
+    background-image: url("https://www.wallpapertip.com/wmimgs/80-807550_tecnologia-fondo-de-pantalla.jpg");
+    background-color: #cccccc;
+    color: white;
+  }
+
+.imagenes{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 50%;
+    height: auto;
+}
+
+h3{
+    text-align: center;
+}
+
+#Objetivo{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+#Educacion{
+    text-align: center;
+}
+
+p{
+    text-justify: auto;
+}
+
+a{
+    color: white;
+}
