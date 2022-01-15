@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo > img {
+  width: 50px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav {
+  background-color: gray;
+  margin-left: 10px
+}
+
+.menu {
+  display:none;
+}
+
+.hamburger {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+
+.product {
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+    text-align: center;
+}
+
+@media (max-width: 767px)  {
+  .menu {
+    display:none;
+  }
+  .hamburger {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+  .product{
+    margin: 0.5em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  .menu {
+    display:none;
+  }
+  .hamburger {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+  }
+  header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .social{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+  .product{
+    margin: 1em;
+  }
+}
+
+
+@media (min-width: 1025px) {
+  header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .menu{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-evenly;
+    color: white;
+  }
+  .hamburger{
+    display: none;
+  }
+  .social{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-evenly;
+  }
+  main{
+    display: flex;
+    flex-direction: row;
+  }
+  .product{
+    margin: 1em;
+  }
+}
